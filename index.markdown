@@ -5,6 +5,7 @@
 layout: home
 ---
 
+[lorem ipsum](lorem ipsum)|
 
 
 index.markdown
