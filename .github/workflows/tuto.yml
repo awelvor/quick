@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - run: yamllint _github/workflows/tuto.yml
+      - run: yamllint .github/workflows/tuto.yml
 
