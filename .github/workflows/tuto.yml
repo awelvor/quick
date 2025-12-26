@@ -8,4 +8,7 @@ jobs:
       - uses: actions/checkout@v6
       - run: yamllint .github/workflows/tuto.yml
       - name: turbostart-npm
+       # You may pin to the exact commit or the version.
+       # uses: clutchd/turbostart-pnpm@86e55d848a1507523f19dbbee6373608383446a7
+        uses: clutchd/turbostart-pnpm@v3.0.0
  
