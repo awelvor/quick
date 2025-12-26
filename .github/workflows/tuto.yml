@@ -1,5 +1,11 @@
 ---
 name: tuto
 run-name: test tuto
-on: pssh
-obs: check tuto
+on: push
+jobs:
+  check_tuto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: yamllint _github/workflows/tuto.yml
+
