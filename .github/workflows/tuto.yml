@@ -1,0 +1,5 @@
+---
+name: tuto
+run-name: test tuto
+on: pssh
+obs: check tuto
