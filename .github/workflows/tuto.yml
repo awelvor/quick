@@ -1,11 +1,9 @@
 ---
 name: tuto
-run-name: test tuto
-on: push
+"on": push
 jobs:
   check_tuto:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
       - run: yamllint .github/workflows/tuto.yml
-
