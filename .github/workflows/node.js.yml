@@ -18,3 +18,4 @@ jobs:
       - run: yamllint .github/workflows/tuto.yml
       - run: yamllint .github/workflows/node.js.yml
       - run: yamllint _config.yml
+      - run: node myfirst.js
