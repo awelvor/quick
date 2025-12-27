@@ -7,3 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - run: yamllint .github/workflows/tuto.yml
+      - run: yamllint _config.yml
