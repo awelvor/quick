@@ -1,7 +1,8 @@
 ---
-# This workflow will do a clean installation of node dependencies, cache/restore them,
+# This workflow will do a clean installation of node dependencies,
+#  cache/restore them,
 # build the source code and run tests across different versions of node
-# see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+# https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
 name: Node.js CI
 
@@ -11,12 +12,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
-  
-
     steps:
-    - uses: actions/checkout@v6
-    - uses: actions/setup-node@v4
-    - run: yamllint .github/workflows/tuto.yml
-    - run: yamllint .github/workflows/node.js.yml
-    - run: yamllint _config.yml
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+      - run: yamllint .github/workflows/tuto.yml
+      - run: yamllint .github/workflows/node.js.yml
+      - run: yamllint _config.yml
