@@ -20,4 +20,3 @@ jobs:
       - run: yamllint _config.yml
       - run: node myfirst.js
       - run: npm install mysql
-
