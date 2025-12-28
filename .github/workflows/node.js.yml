@@ -32,5 +32,4 @@ jobs:
       - run: yamllint .github/workflows/node.js.yml
       - run: yamllint _config.yml
       - run: sudo apt install mysql-server
-     
       - run: sudo mysql -uroot -proot_password
