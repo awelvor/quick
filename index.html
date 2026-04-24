@@ -4,7 +4,7 @@
 
 layout: home
 ---
-
+<p>24 avril 2026</</p>
 {% assign image_files = site.static_files  %}
 
 
@@ -12,10 +12,8 @@ layout: home
 
 <div class="gallery" style="display: flex; flex-wrap: wrap; gap: 20px;">
   {% for myimage in image_files %}
-    <div class="image-container">
-      <img src="{{ myimage.path | relative_url }}" alt="Image" style="max-width: 200px; height: auto;">
-      <p style="font-size: 12px;">{{ myimage.path }}</p>
-    </div>
+  {{ myimage.path }}<br>
+    
   {% endfor %}
 </div>
 
