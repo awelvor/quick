@@ -5,7 +5,7 @@ layout: home
 
 
 
-{% assign image_files = site.static_files  %}
+{% assign image_files = site.static_files | where: "image", true %}
 
 
 
