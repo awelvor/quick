@@ -29,6 +29,11 @@ baseurl: "/quick"
 url: "quick"
 twitter_username: jekyllrb
 github_username: jekyll
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
 
 # Build settings
 theme: minima
