@@ -31,7 +31,7 @@ twitter_username: jekyllrb
 github_username: jekyll
 defaults:
   - scope:
-      path: "assets/images"
+      path: "assets/images2"
     values:
       image: true
 
